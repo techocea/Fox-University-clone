@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* orange #fe6102 */
+/* blue #0f1128 */
+
+header {
+    margin: 0 7rem;
+    background-color: #fff;
+    color: #0f1128;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.top-top {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: absolute;
+    right: 10%;
+    left: 35%;
+
+
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+}
+
+.mail-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.phone-1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.phone-1-1 {
+    display: inline;
+    color: grey;
+    padding: 0;
+}
+
+.apply {
+    align-items: center;
+    justify-content: right;
+    position: absolute;
+    right: 8%;
+}
+
+.button {
+    border: none;
+    outline: none;
+    background-color: #fe6102;
+    color: #fff;
+    padding: 1rem 1rem;
+    font-size: 16px;
+}
+
+nav {
+    margin: 0 7rem;
+    background-color: #0f1128;
+    height: 64px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    color: #fff;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    position: absolute;
+    right: 9%;
+    top: 22%;
+    margin-right: 1rem;
+
+}
+
+.bar {
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    outline: 1px solid #fff;
+    padding: 0.5rem 0.5rem;
+    width: 280px;
+    background: transparent;
+    color: #fff;
+}
+
+.fa-search {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 7%;
+    color: #fff;
+}
+
+input {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mail-color {
+    color: gray;
+    padding: 0;
+}
+
+#home {
+    height: 800px;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("images/85973254.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home h1 {
+    font-size: 46px;
+    padding: 7rem;
+    padding-bottom: 0;
+    color: #fff;
+    padding-right: 0;
+}
+
+#home p {
+    padding-left: 7rem;
+    padding-top: 1rem;
+    color: #fff;
+}
+
+.contact-btn {
+    margin-left: 7rem;
+    margin-top: 2rem;
+    background-color: #fe6102;
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    padding: 1rem;
+}
+.our-team {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    position: absolute;
+    top: 130%;
+}
+.our-team h3 {
+    padding-bottom: 2rem;
+}
+.box-1,.box-2,.box-3,.box-4 {
+    width: 337px;
+    outline: none;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    justify-content:center;
+    height: 248px;
+    padding-top: 5rem;
+    padding-left: 0.5rem;
+}
+.box-1,.box-3 {
+    background-color: #fe6102;
+    
+}
+.box-2,.box-4 {
+    background-color: #0f1128;
+} 
+.home:hover::after:active{
+    color: #fe6102;
+}
